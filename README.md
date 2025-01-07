@@ -1,6 +1,6 @@
-# labsgit-lukaszk-hmcts-nodejs
+# ${{ values.app_full_name }}
 
-Deploying a Node.js application as a part of Golden Path tutorial
+${{ values.description }}
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ Deploying a Node.js application as a part of Golden Path tutorial
 
 Running the application requires the following tools to be installed in your environment:
 
-- [Node.js](https://nodejs.org/) v12.0.0 or later
+- [Node.js](https://nodejs.org/) v18.0.0 or later
 - [yarn](https://yarnpkg.com/)
 - [Docker](https://www.docker.com)
 
@@ -32,7 +32,7 @@ Run:
 $ yarn start
 ```
 
-The applications's home page will be available at https://localhost:8080
+The applications's home page will be available at https://localhost:${{ values.http_port }}
 
 ### Running with Docker
 
@@ -49,9 +49,9 @@ Run the application by executing the following command:
 ```
 
 This will start the frontend container exposing the application's port
-(set to `8080` in this template app).
+(set to `${{ values.http_port }}` in this template app).
 
-In order to test if the application is up, you can visit https://localhost:8080 in your browser.
+In order to test if the application is up, you can visit https://localhost:${{ values.http_port }} in your browser.
 You should get a very basic home page (no styles, etc.).
 
 ## Developing
@@ -98,6 +98,7 @@ Make sure all the paths in your application are covered by accessibility tests (
 set up in this template, at the application level. However, you need to make sure that CSRF token
 is present in every HTML form that requires it. For that purpose you can use the `csrfProtection` macro,
 included in this template app. Your njk file would look like this:
+{%- raw -%}
 
 ```
 {% from "macros/csrf.njk" import csrfProtection %}
@@ -110,9 +111,11 @@ included in this template app. Your njk file would look like this:
 ...
 ```
 
+{% endraw %}
+
 ### Healthcheck
 
-The application exposes a health endpoint (https://localhost:8080/health), created with the use of
+The application exposes a health endpoint (https://localhost:${{ values.http_port }}/health), created with the use of
 [Nodejs Healthcheck](https://github.com/hmcts/nodejs-healthcheck) library. This endpoint is defined
 in [health.ts](src/main/routes/health.ts) file. Make sure you adjust it correctly in your application.
 In particular, remember to replace the sample check with checks specific to your frontend app,
