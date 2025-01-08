@@ -1,8 +1,8 @@
 apiVersion: v2
 appVersion: '1.0'
-description: A Helm chart for labsgit-lukaszk-hmcts-nodejs App
-name: labsgit-lukaszk-hmcts-nodejs
-home: https://github.com/hmcts/labsgit-lukaszk-hmcts-nodejs
+description: A Helm chart for labs-lukaszk-hmcts-nodejs App
+name: labs-lukaszk-hmcts-nodejs
+home: https://github.com/hmcts/labs-lukaszk-hmcts-nodejs
 version: 0.0.6
 dependencies:
   - name: nodejs

@@ -1,4 +1,4 @@
-# labsgit-lukaszk-hmcts-nodejs
+# labs-lukaszk-hmcts-nodejs
 
 Deploying a Node.js application as a part of Golden Path tutorial
 
@@ -8,7 +8,7 @@ Deploying a Node.js application as a part of Golden Path tutorial
 
 Running the application requires the following tools to be installed in your environment:
 
-- [Node.js](https://nodejs.org/) v12.0.0 or later
+- [Node.js](https://nodejs.org/) v18.0.0 or later
 - [yarn](https://yarnpkg.com/)
 - [Docker](https://www.docker.com)
 
