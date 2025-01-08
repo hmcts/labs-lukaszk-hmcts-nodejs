@@ -73,7 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:8.8.0"],\
             ["eslint-plugin-import", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:2.27.5"],\
             ["eslint-plugin-jest", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:27.2.1"],\
-            ["express", "npm:4.20.0"],\
+            ["express", "npm:4.21.0"],\
             ["express-nunjucks", "npm:2.2.5"],\
             ["glob", "npm:10.4.5"],\
             ["govuk-frontend", "npm:4.6.0"],\
@@ -6702,7 +6702,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:8.8.0"],\
             ["eslint-plugin-import", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:2.27.5"],\
             ["eslint-plugin-jest", "virtual:0fe8ae6be068d2f30e6e1c4ad9d0c715db41428fa3e9a2c42a5aa8d93fba288315271172dae737de2f4d34a9b38ebab987b8667f4cbf6aa1a2f33cbd30fb6c1b#npm:27.2.1"],\
-            ["express", "npm:4.20.0"],\
+            ["express", "npm:4.21.0"],\
             ["express-nunjucks", "npm:2.2.5"],\
             ["glob", "npm:10.4.5"],\
             ["govuk-frontend", "npm:4.6.0"],\
@@ -11204,10 +11204,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.20.0", {\
-          "packageLocation": "./.yarn/cache/express-npm-4.20.0-a4b76bf3f8-faa11bffa1.zip/node_modules/express/",\
+        ["npm:4.21.0", {\
+          "packageLocation": "./.yarn/cache/express-npm-4.21.0-377d90d8f4-1c5212993f.zip/node_modules/express/",\
           "packageDependencies": [\
-            ["express", "npm:4.20.0"],\
+            ["express", "npm:4.21.0"],\
             ["accepts", "npm:1.3.8"],\
             ["array-flatten", "npm:1.1.1"],\
             ["body-parser", "npm:1.20.3"],\
@@ -11220,7 +11220,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["encodeurl", "npm:2.0.0"],\
             ["escape-html", "npm:1.0.3"],\
             ["etag", "npm:1.8.1"],\
-            ["finalhandler", "npm:1.2.0"],\
+            ["finalhandler", "npm:1.3.1"],\
             ["fresh", "npm:0.5.2"],\
             ["http-errors", "npm:2.0.0"],\
             ["merge-descriptors", "npm:1.0.3"],\
@@ -11229,11 +11229,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["parseurl", "npm:1.3.3"],\
             ["path-to-regexp", "npm:0.1.10"],\
             ["proxy-addr", "npm:2.0.7"],\
-            ["qs", "npm:6.11.0"],\
+            ["qs", "npm:6.13.0"],\
             ["range-parser", "npm:1.2.1"],\
             ["safe-buffer", "npm:5.2.1"],\
             ["send", "npm:0.19.0"],\
-            ["serve-static", "npm:1.16.0"],\
+            ["serve-static", "npm:1.16.2"],\
             ["setprototypeof", "npm:1.2.0"],\
             ["statuses", "npm:2.0.1"],\
             ["type-is", "npm:1.6.18"],\
@@ -11533,6 +11533,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["finalhandler", "npm:1.2.0"],\
             ["debug", "virtual:44738662cf800ff2863ba9baeabb817b24a959a14f86e20a31680e5dc79a4a738f7ceb7dca32753d579fae475aa061dffad8228a3391f3a9546b122f077e29a5#npm:2.6.9"],\
             ["encodeurl", "npm:1.0.2"],\
+            ["escape-html", "npm:1.0.3"],\
+            ["on-finished", "npm:2.4.1"],\
+            ["parseurl", "npm:1.3.3"],\
+            ["statuses", "npm:2.0.1"],\
+            ["unpipe", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.3.1", {\
+          "packageLocation": "./.yarn/cache/finalhandler-npm-1.3.1-690d7d7e6d-a8c58cd97c.zip/node_modules/finalhandler/",\
+          "packageDependencies": [\
+            ["finalhandler", "npm:1.3.1"],\
+            ["debug", "virtual:44738662cf800ff2863ba9baeabb817b24a959a14f86e20a31680e5dc79a4a738f7ceb7dca32753d579fae475aa061dffad8228a3391f3a9546b122f077e29a5#npm:2.6.9"],\
+            ["encodeurl", "npm:2.0.0"],\
             ["escape-html", "npm:1.0.3"],\
             ["on-finished", "npm:2.4.1"],\
             ["parseurl", "npm:1.3.3"],\
@@ -18515,14 +18529,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:1.16.0", {\
-          "packageLocation": "./.yarn/cache/serve-static-npm-1.16.0-88462a5f62-a479dfe7e9.zip/node_modules/serve-static/",\
+        ["npm:1.16.2", {\
+          "packageLocation": "./.yarn/cache/serve-static-npm-1.16.2-5d8e560aec-dffc52feb4.zip/node_modules/serve-static/",\
           "packageDependencies": [\
-            ["serve-static", "npm:1.16.0"],\
-            ["encodeurl", "npm:1.0.2"],\
+            ["serve-static", "npm:1.16.2"],\
+            ["encodeurl", "npm:2.0.0"],\
             ["escape-html", "npm:1.0.3"],\
             ["parseurl", "npm:1.3.3"],\
-            ["send", "npm:0.18.0"]\
+            ["send", "npm:0.19.0"]\
           ],\
           "linkType": "HARD"\
         }]\
