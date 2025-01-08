@@ -7,7 +7,7 @@ export class AppInsights {
     if (config.get('appInsights.instrumentationKey')) {
       appInsights.setup(config.get('appInsights.instrumentationKey')).setSendLiveMetrics(true).start();
       const tag = appInsights.defaultClient.context.keys.cloudRole;
-      appInsights.defaultClient.context.tags[tag] = 'labsgit-lukaszk-hmcts-nodejs';
+      appInsights.defaultClient.context.tags[tag] = 'labs-lukaszk-hmcts-nodejs';
       appInsights.defaultClient.trackTrace({ message: 'App insights activated' });
     }
   }

@@ -1,4 +1,4 @@
-# labsgit-lukaszk-hmcts-nodejs
+# labs-lukaszk-hmcts-nodejs
 
 Deploying a Node.js application as a part of Golden Path tutorial
 
